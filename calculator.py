@@ -3,7 +3,7 @@
 def add(a, b):
    """Return the sum of a and b with logging."""
    result = a + b
-   print(f"LOG: add({a}, {b}) = {result}")
+   print(f"LOGGING: add({a}, {b}) = {result}")
    return result
 
 def subtract(a, b):
