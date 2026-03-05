@@ -1,8 +1,10 @@
 # calculator.py - Simple calculator for Git workshop
 
 def add(a, b):
-    """Return the sum of a and b."""
-    return a + b
+   """Return the sum of a and b with logging."""
+   result = a + b
+   print(f"LOG: add({a}, {b}) = {result}")
+   return result
 
 def subtract(a, b):
     """Return the difference of a and b."""
