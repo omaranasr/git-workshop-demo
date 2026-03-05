@@ -1,8 +1,11 @@
 # calculator.py - Simple calculator for Git workshop
 
 def add(a, b):
-    """Return the sum of a and b."""
+    """Return the sum of two numbers with type validation."""
+    if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
+        raise TypeError("Both arguments must be numbers")
     return a + b
+
 
 def subtract(a, b):
     """Return the difference of a and b."""
