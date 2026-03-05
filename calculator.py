@@ -12,6 +12,10 @@ def multiply(a, b):
     """Return the product of a and b."""
     return a * b
 
+def divide(a, b):
+    """Return the quotient of a and b."""
+    return a / b
+
 
 if __name__ == "__main__":
     print("Addition:    ", add(10, 5))
